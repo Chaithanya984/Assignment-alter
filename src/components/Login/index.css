@@ -1,0 +1,59 @@
+.bg-container {
+  background-color: black;
+  min-height: 100vh;
+}
+
+.display-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.display-down {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.login-cont {
+  background-color: orange;
+  border-top-right-radius: 24px;
+  border-top-left-radius: 24px;
+  border-bottom: 15px;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
+}
+
+.logo-cont {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-s {
+  display: flex;
+  flex-direction: row;
+}
+
+h2 {
+}
+
+input {
+  height: 20px;
+  margin-bottom: 15px;
+}
+
+button {
+  height: 38px;
+  border-radius: 15px;
+  background-color: cyan;
+  border-width: 0px;
+}
